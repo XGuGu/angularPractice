@@ -3,6 +3,6 @@
 </p>
 
 
-<p>value of child is {{ employee }}</p>
+<p>value of employee is {{ employee }}</p>
 
-<app-employees></app-employees>
+<app-employees (employeeEvent)="employee=$event"></app-employees>

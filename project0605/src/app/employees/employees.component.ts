@@ -6,7 +6,15 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./employees.component.css']
 })
 export class EmployeesComponent implements OnInit {
-  @Output() tom
+  @Output() employeeEvent = new EventEmitter();
+
+  onChange1() {
+    this.employeeEvent.emit('Tom');
+  }
+
+  tom2() {
+    this.employeeEvent.emit('Peter');
+  }
   constructor() { }
 
   ngOnInit() {
