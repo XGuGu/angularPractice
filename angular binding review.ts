@@ -77,3 +77,57 @@ public titleStyles = {
   color: "blue",
   fontStyle: "italic"
 }
+
+Event Binding
+
+template:`
+  <h2> Welcome {{name}} </h2>
+  <button (click)="onClick($event)"> Greet </button>
+  <button (click)="greeting = 'welcome vishwas'"> Greet </button>
+  <h2> {{greeting}} </h2>
+`
+
+public name = "Codevolution";
+public greeting = "";
+
+constructor() {}
+
+onClick(event) {
+  console.log("welcome to Codevolution")
+  this.greeting = "welcome to Codevolution"
+
+  console.log(event)
+}
+
+Template Reference Variables
+
+// to pass value from view to class
+// for easily access DOM elements and their properties
+
+template:`
+  <input #myValue type="text">
+  <button (click)="logMessage(myIput.value)"> Log </button>
+`
+
+logMessage(value) {
+  console.log(value)
+}
+
+Two-way Binding
+
+// allows us to update a property at the same time display the value of the property
+app.module.ts
+import { FromsModule } from '@angular/forms';
+
+imports: [
+  FormsModule
+]
+
+@ngmodel
+
+template: `
+  <input [(ngModel)]="name" type='text'>
+  {{name}}
+`
+
+public name = "";
