@@ -23,7 +23,6 @@ template: `
   <ng-template #elseBlock>
     <h2> Hidden </h2>
   </ng-template>
-
 `
 // if is "false", the display disappear
 

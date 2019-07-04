@@ -91,6 +91,12 @@ compare to AngularJS :
 
 //Single page application (angluar5)
 
+Single-Page Applications
+(SPAs) are Web apps that load a single HTML page and dynamically
+update that page as the user interacts with the app. SPAs use AJAX and HTML5 to create
+fluid and responsive Web apps, without constant page reloads. However, this means much of
+the work happens on the client side, in JavaScript.
+
 //angular middleware:
 They run in front of each erquest made by a router at a specific route.
 So in your middleware you can authorize if the current user can see that state
