@@ -118,3 +118,15 @@
   On the other hand, null is an assignment value. It can be assigned to a variable as
    a representation of no value. Also, undefined and null are two distinct types: undefined
    is a type itself (undefined) while null is an object.`
+
+
+//What is promise
+
+//difference between promise and subscribeable
+
+//what is three status of Promise?
+1.fulfill
+2.pending
+3.reject
+
+//

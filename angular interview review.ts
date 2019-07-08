@@ -100,3 +100,14 @@ the work happens on the client side, in JavaScript.
 //angular middleware:
 They run in front of each erquest made by a router at a specific route.
 So in your middleware you can authorize if the current user can see that state
+
+//what is service ? (angularjs)
+
+//how can we create service ?(angular js)
+1. service factory
+2. provider
+3. service (less code than other two)
+
+//what is lazy loading ? (angularjs)
+
+//why we use lazy loading ? (angularjs)
