@@ -84,14 +84,13 @@ compare to AngularJS :
 
 //difference between constructor and ngOnInit
 
-
 //Pass data between components
 
 //ngFor and ngRepeat
 
 //Single page application (angluar5)
 
-Single-Page Applications
+// Single-Page Applications
 (SPAs) are Web apps that load a single HTML page and dynamically
 update that page as the user interacts with the app. SPAs use AJAX and HTML5 to create
 fluid and responsive Web apps, without constant page reloads. However, this means much of
@@ -101,13 +100,47 @@ the work happens on the client side, in JavaScript.
 They run in front of each erquest made by a router at a specific route.
 So in your middleware you can authorize if the current user can see that state
 
-//what is service ? (angularjs)
+//what is service ? (angular)
+Singleton objects in Angular that get instantiated only once during the lifetime of an
+application are called services. An Angular service contains methods that maintain the
+data throughout the life of an application.
+
+//what are directives in Angular? (angular )
+Directives are one of the core features of Angular. They allow an Angular developer
+to write new, application-specific HTML syntax. In actual, directives are functions
+that are executed by Angular compiler when the same finds them in the DOM.
+
 
 //how can we create service ?(angular js)
 1. service factory
 2. provider
 3. service (less code than other two)
 
-//what is lazy loading ? (angularjs)
+//what is lazy loading ? (angular)
+lazy loading is a module which is used to decrease the start-up time.
+When lazy is used, our system application does not need to load everything at once.
+It only needs to load what the user expects to see when the application first loads.
+The modules which are lazily loaded will only be loaded when the user navigates to their routes.
 
-//why we use lazy loading ? (angularjs)
+//why we use lazy loading ?
+Lazy loading improves the performance of our system applications. It keeps the initial payload
+small and these smaller payloads lead to faster download speeds. It helps in lowering the resource
+cost, especially on mobile networks. If a user doesn’t visit a section of the application,
+they won’t ever download those resources.
+
+//ng repeat & ngfor
+repeat is for angularjs
+ngfor is for angular
+
+//what does spa mean ? how to implement spa?
+
+//what is DI and how to implement DI?
+DI is a design pattern.
+a Class receives its dependencies from external sources rather than create them.
+
+
+
+//what is structural directives?
+reshape the DOM tree in templates of the components
+
+//

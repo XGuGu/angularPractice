@@ -121,12 +121,15 @@
 
 
 //What is promise
+A promise is an object that may produce a single value some time in the future:
+either a resolved value, or a reason that it's not resolved.A promise may be in
+one of 3 possible states: fulfilled, rejected, or pending.
 
 //difference between promise and subscribeable
 
 //what is three status of Promise?
-1.fulfill
-2.pending
-3.reject
+1.pending: initial state, neither fulfilled nor rejected.
+2.fulfilled: meaning that the operation completed successfully.
+3.rejected: meaning that the operation failed.
 
 //
