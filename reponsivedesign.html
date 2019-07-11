@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+      * {
+        box-sizing: border-box;
+      }
+      .container {
+        display:flex;
+        flex-wrap: wrap;
+      }
+      .p1 {
+        width: 100%;
+        background: red;
+      }
+      .p2 {
+        width: 100%;
+        background: blue;
+        overflow: auto;
+      }
+
+      @media only screen and (min-width: 768px) {
+        .container {
+          flex-wrap: nowrap;
+        }
+
+        .p1 {
+          width: 75%;
+        }
+
+        .p2 {
+          width: 25%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img src="https://thumbs-prod.si-cdn.com/y11A35loYunnUWQbrFcaDU1A7sk=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/43/0c/430ce021-3089-415f-bb2d-340465beed4e/2204449610_6a0aa9d569_o.jpg" style="width:500px">
+    <div class="container">
+      <div class="p1">12312312312312312312312312312321</div>
+      <div class="p2">123122222222222222222222222</div>
+    </div>
+
+  </body>
+</html>
