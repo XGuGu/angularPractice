@@ -143,4 +143,9 @@ a Class receives its dependencies from external sources rather than create them.
 //what is structural directives?
 reshape the DOM tree in templates of the components
 
-//
+//Three ways to create a registered service ? (AngularJs)
+1.service
+2.factory
+3.provider
+//difference between factory and service
+see the cheat sheet
