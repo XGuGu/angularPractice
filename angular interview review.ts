@@ -149,3 +149,7 @@ reshape the DOM tree in templates of the components
 3.provider
 //difference between factory and service
 see the cheat sheet
+
+// what is form validation ?
+
+// Make a synchronized call, ajax call. @ngOnInit @ngDoCheck

@@ -132,4 +132,8 @@ one of 3 possible states: fulfilled, rejected, or pending.
 2.fulfilled: meaning that the operation completed successfully.
 3.rejected: meaning that the operation failed.
 
-//
+//What is data type in JS ?
+Number, string, boolean, undefined, null, Objects and Symbols
+
+// 1.0+2.0 === 3.0 ?
+should return false;
