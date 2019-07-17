@@ -15,6 +15,10 @@ ngDoCheck
   ngAfterViewChecked
 ngOnDestroy *
 
+// onChange and doCheck difference?
+onChange is called when a value bound to an input has changed , it runs for pure data changes,
+doCheck is called when change detection runs so you can implement your custom changedetection action. runs for both pure and impure data change.
+
 
 //angular 5 new feature with angular 4, angularJS
 `https://www.simplilearn.com/angularjs-vs-angular-2-vs-angular-4-differences-article`
@@ -138,10 +142,15 @@ ngfor is for angular
 DI is a design pattern.
 a Class receives its dependencies from external sources rather than create them.
 
-
+create service, inject in class constructor...
 
 //what is structural directives?
 reshape the DOM tree in templates of the components
+ngFor, ngIf
+
+//what are attribute directives?
+Attribute directives are used to change the behavior, appearance or look of an element on a user in put or via data from the service.
+ngStyle, ngClass
 
 //Three ways to create a registered service ? (AngularJs)
 1.service
@@ -151,5 +160,39 @@ reshape the DOM tree in templates of the components
 see the cheat sheet
 
 // what is form validation ?
+angualrjs: built in validation directives, like ng-valid, ng-invalid, ng-dirty, ng-touched or you can create custom validatiors.
+custom validatior requires controller of "ngModel"
+
+angular validation: first import { validatiors } from '@angular/forms',
+in the form, you can write like this:
+  userName:['vishwas',[Validatiors.required, Validatiors.minLength(3)]],
+
+// custom validatiors
+
 
 // Make a synchronized call, ajax call. @ngOnInit @ngDoCheck
+
+// component and directive difference
+1. view and no view
+2. used to create UI widget, used to add behavior the existing DOM elements
+3. used to split to application into smaller parts, used to design a reusable components
+
+// why we use directives?
+
+// what is the advantages of AOT ?
+1. fast loading
+2. fast rendering
+3. lesser HTTp requests
+4.Detect error at build time
+
+// impure and pure pipe?
+pure : executes a pure pipe only when it detects a pure change to the input value. A pure change is either a change to primitive input value(string, Number
+ boolean, symbol) or a object reference (date, array, function, object)
+
+impure: exectues impure pipe during every component change dection cycle. an impure pipe is called often, as often as every keystroke or mouse-move
+
+// async pipe ?
+the async pipe accepts a Promise or Observable as input and subscribes to the input automatically, eventually returning the emitted values
+
+//what elements can be add to module's declarations?
+like components, directives and pipes in module's declaration list.

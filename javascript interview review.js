@@ -137,3 +137,12 @@ Number, string, boolean, undefined, null, Objects and Symbols
 
 // 1.0+2.0 === 3.0 ?
 should return false;
+
+// webgarden and webfarm
+one server for webgarden, serveal server webfarm
+
+// what is the use of void(0)?
+to prevent the page from refreshing and parameter "zero" is passed while calling .
+
+//to throw exception?
+try ,catch
