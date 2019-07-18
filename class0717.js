@@ -1,0 +1,145 @@
+class Animal {
+
+  constructor (name) {
+    this.name = name;
+  }
+
+  yell() {
+    console.log('ooooo');
+  }
+
+
+}
+
+class Dog extends Animal {
+
+  constructor (name, color) {
+     super(name);
+     this.color = color;
+   }
+
+  bark() {
+    console.log('woof');
+  }
+}
+
+
+var d1 = new Dog('mike', 'yellow');
+// console.log(Object.keys(d1));
+
+
+add(2,5);
+add(2)(5);
+
+function add(a, b) {
+  if (b === undefined) {
+    return (x) => {
+      return a + x;
+    }
+  }
+  return a + b;
+}
+
+// console.log(add(2)(5));
+
+
+function filter(arr1, arr2) {
+  let res = [];
+  for (let i = 0; i < arr1.length; i++) {
+    if (arr2.indexOf(arr1[i]) === -1) {
+      res.push(arr1[i]);
+    }
+  }
+  return res;
+}
+
+// console.log(filter([1,2,3,4], [3,4]));
+
+//'a3b2a4'
+function compress(str) {
+  let res = '';
+  let count = 1;
+
+  for(let i = 0; i < str.length; i++) {
+    if (str[i] === str[i + 1]) {
+      count += 1;
+    } else {
+      res += str[i] + count;
+      count = 1;
+    }
+  }
+
+  return res;
+}
+
+// console.log(compress('aaabbaaaabbcccccc'));
+
+function groupCount(listArr) {
+  let res = {};
+  for (let i = 0; i < listArr.length; i++) {
+    let person = listArr[i];
+    if (res[person.user] === undefined) {
+      res[person.user] = 1;
+    } else {
+      res[person.user] += 1;
+    }
+  }
+  return res;
+}
+var list = [
+  {user:'Mike', age:19},
+  {user:'Mike', age:19},
+  {user:'Mike', age:19},
+  {user:'Dave', age:19},
+  {user:'Tom', age:19},
+  {user:'Tom', age:19}
+];
+// console.log(groupCount(list));
+
+function deleteDup(list) {
+  let set = new Set();
+  for(let i = 0; i < list.length; i++) {
+    person = list[i].user;
+    set.add(person);
+  }
+  return Array.from(set);
+}
+// console.log(deleteDup(list));
+
+
+function reverseSentence(str) {
+  let res = ''
+  if (str[str.length - 1] === '.') {
+    return str;
+  }
+  else {
+    for (let i = str.length - 1; i >= 0; i--) {
+      res += str[i];
+    }
+    return res;
+  }
+}
+
+// let sentence1 = 'abcdefghijklmn.'
+// let sentence2 = 'abcdefghijklmn'
+// console.log(reverseSentence(sentence1));
+// console.log(reverseSentence(sentence2));
+
+function majorityEle(arr) {
+  let store = {};
+  let half = Math.floor(arr.length / 2);
+  for (let i = 0; i < arr.length; i++) {
+    let ele = arr[i];
+    if (store[ele] === undefined) {
+      store[ele] = 1;
+    } else {
+      store[ele] += 1;
+      if (store[ele] > half) {
+        return ele;
+      }
+    }
+  }
+}
+let arr = [1,2,1,2,1,11,1,1,3,1,1,2,2,3,1];
+
+console.log(majorityEle(arr));

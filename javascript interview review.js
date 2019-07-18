@@ -146,3 +146,11 @@ to prevent the page from refreshing and parameter "zero" is passed while calling
 
 //to throw exception?
 try ,catch
+
+// copy of Object
+shallow copy:
+function (old) {
+  var newObj = {};
+  for(var i = )
+}
+deep copy:
