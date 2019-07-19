@@ -142,4 +142,36 @@ function majorityEle(arr) {
 }
 let arr = [1,2,1,2,1,11,1,1,3,1,1,2,2,3,1];
 
-console.log(majorityEle(arr));
+// console.log(majorityEle(arr));
+
+
+function longestEvenLengthWord(str) {
+  let words = str.split(' ');
+  let res;
+  let longestLen = 0;
+  for (let i = 0; i < words.length; i++) {
+    let len = words[i].length;
+    if (isEven(len) && len > longestLen) {
+      res = words[i];
+      longestLen = len;
+    }
+  }
+  return res === undefined ? '00' : res;
+}
+
+function isEven(length) {
+  return length % 2 === 0;
+}
+
+// test code:
+let sentence = 'time to write great code'
+let sentence1 = 'write great'
+
+// console.log(longestEvenLengthWord(sentence)); //time
+// console.log(longestEvenLengthWord(sentence1)); //00
+
+var s1 = 'abc';
+var s2 = new String('abc');
+
+console.log(s1 === s2);
+console.log(s1 == s2);

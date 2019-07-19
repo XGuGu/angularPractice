@@ -125,6 +125,12 @@ A promise is an object that may produce a single value some time in the future:
 either a resolved value, or a reason that it's not resolved.A promise may be in
 one of 3 possible states: fulfilled, rejected, or pending.
 
+The Promise object is used for asynchronous coputations. A Promsise represents a value which may be available now, or in the future, or never.
+first, it is an object, that is, with other javascript object usage, no different.
+second, it as an proxy, between the asynchoronous and the callback function.
+
+proxy is a design pattern,allows for object level access control by acting as a pass through entity or a placeholder obejct.
+
 //difference between promise and subscribeable
 
 //what is three status of Promise?
@@ -154,3 +160,11 @@ function (old) {
   for(var i = )
 }
 deep copy:
+
+
+// Object.keys() & Object getOwnProperty difference   enumerable !
+a = ['hello', 'world'];
+Object.keys(a) // [0,1]
+Object.getOwnProperty(a) //[0, 1, length]
+
+// web worker
