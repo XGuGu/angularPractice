@@ -131,11 +131,9 @@ second, it as an proxy, between the asynchoronous and the callback function.
 
 proxy is a design pattern,allows for object level access control by acting as a pass through entity or a placeholder obejct.
 
-//difference between promise and subscribeable
-
 //what is three status of Promise?
 1.pending: initial state, neither fulfilled nor rejected.
-2.fulfilled: meaning that the operation completed successfully.
+2.fulfilled/resolved: meaning that the operation completed successfully.
 3.rejected: meaning that the operation failed.
 
 //What is data type in JS ?
@@ -168,3 +166,32 @@ Object.keys(a) // [0,1]
 Object.getOwnProperty(a) //[0, 1, length]
 
 // web worker
+
+// DOM ?
+Document Object Model is a programming interface for HTML, XML, and SVG documents. It provides a structured representation of the document as a tree,
+The DOM defines methods that allow access to the tree, so that they can change the document structure, style and content. The DOM provedes a representation of the document
+as a structured group of nodes and objects, possessing various properties and methods. Nodes can also have event handlers attached to them, and once an event is
+triggered, the event handlers get executed.
+
+
+DOM is an interface to let javascript to manipulate the HTML page.
+
+var foo = documents.getElementById("foo");
+
+if (foo.hasChildNodes()) {
+  foo.removeChild(foo.childNodes[0]);
+}
+
+The example removes the first child node inside the element with tthe id 'foo' if foo has child nodes.
+
+Node.CloneNode()
+it takes a boolean value as a parameter indicating whether or not to clone a child node at the same time. The default is false, that is, the child node is not cloned.
+var dupNode = node.cloneNode(deep);
+克隆会复制所有的属性 方法，但和event相关的都不会复制
+
+NodeList, HTML Collection !!
+
+document node
+document.getElementsByTagName()
+document.querySelector()
+document.querySelectorAll()
