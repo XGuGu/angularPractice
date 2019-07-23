@@ -195,3 +195,51 @@ document node
 document.getElementsByTagName()
 document.querySelector()
 document.querySelectorAll()
+
+// how to add elements at the start/end of an array
+var myArr = [1,2,3,4,5];
+myArr = ['start', ...myArr];
+myArr = [...myArr, 'end'];
+myArr = ['start', ...myArr, 'end'];
+
+// how do you create a private variable in JS ?
+function secretVar() {
+  var priva = 'secret code';
+  return function() {
+    return priva;
+  }
+}
+
+var getSecret = secretVar;
+console.log(getSecret)  //cant get the var, need getSecret()
+
+
+// what is the output ?
+var num = 4;
+function outer() {
+  var num = 2;
+  function inner() {
+    num++;
+    var num = 3;
+    console.log(num);
+  }
+  inner();
+}
+outer(); //3
+
+//what is the output ?
+console.log(typeof (typeof 1));
+//--> (type of number)
+//--> (type of string)
+
+//delegation
+If there are many elements inside one parent, and you want to handle events on them, don't bind handlers to each element.
+Instead, bind the single handler to their, and get the child from event target
+
+prevent
+p.addEventListener('click', function(event) {
+  event.stopPropagtion();
+})
+p.addEventListener('click', function(event) {
+  event.stopImmediatePropagtion(); //stop every event ! 
+})
