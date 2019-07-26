@@ -55,7 +55,7 @@ function filter(arr1, arr2) {
 
 // console.log(filter([1,2,3,4], [3,4]));
 
-//'a3b2a4'
+//aaabbaaaa => 'a3b2a4'
 function compress(str) {
   let res = '';
   let count = 1;
@@ -170,8 +170,39 @@ let sentence1 = 'write great'
 // console.log(longestEvenLengthWord(sentence)); //time
 // console.log(longestEvenLengthWord(sentence1)); //00
 
-var s1 = 'abc';
-var s2 = new String('abc');
+// var s1 = 'abc';
+// var s2 = new String('abc');
+//
+// console.log(s1 === s2);
+// console.log(s1 == s2);
 
-console.log(s1 === s2);
-console.log(s1 == s2);
+// Singleton
+
+//happy number
+// A happy number is a number defined by the following process:
+// starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1
+
+// example: 19 is a happy number
+// 1^2 + 9^2 = 82;
+// 8^2 + 2^2 = 68
+// 6^2 + 8^2 = 100
+// 1^2 + 0^2 + 0^2 = 1
+
+function isHappy(num) {
+  let number = num.toString();
+  let sum = 0;
+  while (sum != num) {
+    debugger
+    sum = 0;
+    for (let i = 0; i < number.length; i++) {
+      sum += Math.pow(number[i], 2);
+    }
+    if (sum == 1) {
+      return true;
+    }
+    number = sum.toString();
+  }
+  return false;
+}
+
+console.log(isHappy(19));
