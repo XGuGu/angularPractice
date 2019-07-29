@@ -50,3 +50,19 @@ Keys(), Values(), Entries(), ForEach() // methods for traverse
 Map is similar to object, but also a set of key-value pairs, but the "key" is not limited to strings, various types of values can be keys
 
 set， has，get
+
+// Reflect
+Reflect objects are designed for several purposes
+1.Put some object methods onto the Reflect object.In this way some methods are deployed on OBject and Reflect objects at the same.It means that
+we can get the inside methods from the Reflect object.
+2.modify some of the return results of Objects...
+3.let Object...
+4...
+
+// class
+只能继承一个父类
+no interface in js
+class doesnt have hoisting
+
+new Foo(); //ReferenceError
+class Foo{}

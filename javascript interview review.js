@@ -241,5 +241,21 @@ p.addEventListener('click', function(event) {
   event.stopPropagtion();
 })
 p.addEventListener('click', function(event) {
-  event.stopImmediatePropagtion(); //stop every event ! 
+  event.stopImmediatePropagtion(); //stop every event !
 })
+
+// difference map(), reduce(), filter() ?
+map() creates a new array with the result of calling a provided function on every ele in array
+
+var officers = [
+  {id:20, name: 'wwww'},
+  {id:24, name:'qeqweqw'},
+  {id:56, name:'werdaf'},
+  {id:88, name:'qweqsssss'}
+]
+
+function fetchId(arr) {
+  return arr.map((ele) => {
+    return ele.id;
+  })
+}
