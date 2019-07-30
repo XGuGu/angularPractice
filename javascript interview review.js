@@ -259,3 +259,22 @@ function fetchId(arr) {
     return ele.id;
   })
 }
+
+reduce() method execute. ...return a single value;
+
+var rockets = [
+  {launches:32},
+  {launches:23},
+  {launches:16},
+  {launches:7},
+  {launches:4},
+  {launches:3},
+];
+
+function sumLaunches(arr) {
+  return arr.reduce((pre, ele) => {
+    return pre + ele.launches;
+  }, 0)
+}
+
+filter() creates a new array, .....
