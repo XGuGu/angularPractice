@@ -95,6 +95,8 @@ compare to AngularJS :
 //Single page application (angluar5)
 
 // Single-Page Applications
+In the SPA technology, only a single page, which is index.HTML, is maintained although the URL keeps on changing.
+
 (SPAs) are Web apps that load a single HTML page and dynamically
 update that page as the user interacts with the app. SPAs use AJAX and HTML5 to create
 fluid and responsive Web apps, without constant page reloads. However, this means much of
@@ -196,3 +198,13 @@ the async pipe accepts a Promise or Observable as input and subscribes to the in
 
 //what elements can be add to module's declarations?
 like components, directives and pipes in module's declaration list.
+
+// AOT and JIT ?
+Ahead of Time compiles the app at the build time with optimizations and is the method that must be used for productions builds.
+
+Just in Time compiles the app in the browser, at runtime, as the application loads - this is the standard development approach.
+
+so AOT has better profermance than JIT for productions.
+
+
+// ngTemplate, ngStore

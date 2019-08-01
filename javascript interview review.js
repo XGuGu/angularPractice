@@ -281,13 +281,34 @@ function sumLaunches(arr) {
 
 280 120
 
+187 213
 
+96 304
 
+70  330
+
+72  328
+
+72 328
+
+87  313
+
+97  303
+
+99  301
+
+101 299
+
+106 294
+
+212 188
+
+210 190
+
+217 183
+
+400 0
 
 
 
 filter() creates a new array, .....
-
-My name is Mike Zhang. I am a front end developer with over 6 years work experiences. I have strong background knowledge in HTML5, CSS,  Javascript and Angular. I am also familiar with React. In addition, I have full stack experience in building MEAN stack and Ruby on Rails projects.  Also, I have experience with modern front end technology like Bootstrap, webpack, babel and so on. That’s all about myself, thank you.
-
-My latest project was to use Angular to build a single page application for inventory management for my client. My responsibility includes building authentication for login logout service, build reusable components for sales, purchase order and invoices forms, build components to browse the goods, use MEAN stack for reviewing recent purchase and sales history, and so on.
