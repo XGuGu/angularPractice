@@ -7,15 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SonComponent implements OnInit {
 
-
-
   constructor() {
     console.log('son constructor');
     this.num = 1;
    }
 
    inc() {
-     console.log('!!!!!!!!!!!!!!!!!!!!!!')
      this.num += 1;
    }
 
