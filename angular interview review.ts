@@ -207,4 +207,8 @@ Just in Time compiles the app in the browser, at runtime, as the application loa
 so AOT has better profermance than JIT for productions.
 
 
-// ngTemplate, ngStore
+// What is ngTemplate, ngStore?
+
+//Why dependency injection ?
+
+//
