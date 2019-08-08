@@ -278,38 +278,9 @@ function sumLaunches(arr) {
 }
 
 
+//deep copy and shallow copy
 
-
-280 120
-
-187 213
-
-96 304
-
-70  330
-
-72  328
-
-72 328
-
-87  313
-
-97  303
-
-99  301
-
-101 299
-
-106 294
-
-212 188
-
-210 190
-
-217 183
-
-400 0
-
-
+slice will make a deep copy if the array is not nested.
+need to use recursion if copy a nested array.
 
 filter() creates a new array, .....
