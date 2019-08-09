@@ -277,7 +277,6 @@ function sumLaunches(arr) {
   }, 0)
 }
 
-
 //deep copy and shallow copy
 
 slice will make a deep copy if the array is not nested.

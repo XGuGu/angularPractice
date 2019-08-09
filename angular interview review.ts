@@ -211,4 +211,38 @@ so AOT has better profermance than JIT for productions.
 
 //Why dependency injection ?
 
-//
+//Experience about you angular 多说点angular
+
+// 0809 interview
+              // 你们组有多少人
+              //
+              // UI developer yes
+              //
+              // 你的项目做什么的 哪里用到angular
+              //
+              // Authorization 干什么的
+              // 哪里用到authorization
+              //
+              //  In the collection
+              //
+              // Workflow???
+              //
+              // 你都做什么 就只有开发 no design
+              //
+              // Service we can use DI
+              //
+              // 2 class 1 service
+              // We can share data through service between 2 class
+              // Pass service into class
+              //
+              // In es5 inheritence prototype
+              // But in es6 using extends
+              //
+              // We can use parent class property and method
+              //
+              // Template
+              // Yes
+              //
+              // Template is html include angular
+              //
+              // Can you talk about you project
