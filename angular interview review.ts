@@ -264,4 +264,8 @@ so AOT has better profermance than JIT for productions.
               // All code compiled together, inlining HTML/CSS in the scripts.
               // No need to deploy the compiler (Half of Angular size).
               // More secure, original source not disclosed.
-              // Suitable for production builds.
+              // Suitable for production builds.、
+
+              // custom validatiors ？？？？
+              // Make a synchronized call, ajax call. @ngOnInit @ngDoCheck ???
+              // component and directive difference
