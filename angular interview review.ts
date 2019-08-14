@@ -246,3 +246,22 @@ so AOT has better profermance than JIT for productions.
               // Template is html include angular
               //
               // Can you talk about you project
+
+//0813 interview
+              // 区别httplicient
+              // Angular 5 new feature
+              //
+              // AOT JIT
+              // NODEJS MONGODB
+              // 2轮面试 angularjs bootstrap css html
+              // JIT - Compile TypeScript just in time for executing it.
+              // Compiled in the browser.
+              // Each file compiled separately.
+              // No need to build after changing your code and before reloading the browser page.
+              // Suitable for local development.
+              // AOT - Compile TypeScript during build phase.
+              // Compiled by the machine itself, via the command line (Faster).
+              // All code compiled together, inlining HTML/CSS in the scripts.
+              // No need to deploy the compiler (Half of Angular size).
+              // More secure, original source not disclosed.
+              // Suitable for production builds.
