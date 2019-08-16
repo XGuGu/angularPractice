@@ -269,3 +269,16 @@ so AOT has better profermance than JIT for productions.
               // custom validatiors ？？？？
               // Make a synchronized call, ajax call. @ngOnInit @ngDoCheck ???
               // component and directive difference
+
+//0815
+
+              // answering vendor calls and emails.
+              // schedule an interview tomorrow.
+              // Api
+              // 多久
+              //
+              // How many years
+              // Html experience
+              //
+              // Graphic designer
+              // 本科 硕士 背景调查 ssn number
