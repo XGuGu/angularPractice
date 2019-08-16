@@ -282,3 +282,11 @@ so AOT has better profermance than JIT for productions.
               //
               // Graphic designer
               // 本科 硕士 背景调查 ssn number
+//0816
+             // read code and tell the result
+             // page object,
+             // html css subtitle,
+             // html css 渐变色彩
+             // jQuery questions, selectors, change fetch elements,
+             // responsive question, css
+             // full stack problem, authutication for login log out form validation
