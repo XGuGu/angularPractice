@@ -290,3 +290,9 @@ so AOT has better profermance than JIT for productions.
              // jQuery questions, selectors, change fetch elements,
              // responsive question, css
              // full stack problem, authutication for login log out form validation
+//0819
+              vendor calls
+              do you have experience with spring boot ?
+              do you have experience with java based applications
+              how many years experience in Angular ?
+              
