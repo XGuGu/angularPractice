@@ -296,4 +296,10 @@ so AOT has better profermance than JIT for productions.
               // do you have experience with java based applications
               // how many years experience in Angular ?
 //0820
-              no interviews, emails and scheduled interview on Thursday
+              // no interviews, emails and scheduled interview on Thursday
+
+I am a front end developer with 6 years work experience. I have strong background in Javascript/ HTML / CSS. And also, I have hands on experience on using
+front end frameworks like Angular and React/Redux. Also, I have experience in using modern technology like Bable, Webpack, bootstrap and so on.
+
+My latest project was to build an internal single page application for order managerment. I was invovled in building components for purchase and sales orders, rebuild the dashboard
+for the system which is used to track, search the order information.
