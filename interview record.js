@@ -12,3 +12,6 @@
        What library have you used for unit test?
        Have experience with Jasmine?
        algorithm problem: return the diagnoal elements contains the number in 2d array.
+//0826
+      regular vendor calls no interview
+      
