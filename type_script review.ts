@@ -112,3 +112,7 @@
 
   let x = point.x ;
   point.x = 5;
+
+// Module:
+export class Point {}
+import { Point } from '.....';
