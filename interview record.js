@@ -161,3 +161,22 @@ for the system which is used to track, search the order information.
         Static page convert to React page ? ...What would you do ? How handle the Html, css ?
         The Coolest thing you think so far ?  ES6...
         The most fancy framework...? Redux
+
+//0903
+        What is virtial DOM ?
+
+        What is React - JST 
+
+        What is context?
+
+        If you want to rate yourself out of 5 in React . What will be your ratting ?
+
+        Explain arrays in JavaScript
+
+        What is a Polyfill?
+
+        Explain the difference between block elements and inline elements
+
+        What is a self closing tag?
+
+        What is an iframe and how it works?
