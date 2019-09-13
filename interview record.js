@@ -191,3 +191,6 @@ for the system which is used to track, search the order information.
 // 0909
         Waterfall Vs. Agile ?
         React Dom ?
+//0912
+        two coding challenging,
+        details see the google doc 
