@@ -193,4 +193,13 @@ for the system which is used to track, search the order information.
         React Dom ?
 //0912
         two coding challenging,
-        details see the google doc 
+        details see the google doc
+
+问题 准备？ 微软面试问的啥？
+          如何准备？
+          算法题？
+
+          Walmart面试问的啥？ 算法题？
+
+          实际问题
+          你们用thunk吗？ 每天的流程？ 
